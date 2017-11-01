@@ -2,7 +2,7 @@ var express = require('express');
 var apiai = require('apiai');
 
 var app = express();
-var api_app = apiai("86b8799ca73d4979a5d597163117309b");
+var api_app = apiai("<Client Access Token>");
 var bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
